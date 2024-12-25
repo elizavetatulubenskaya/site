@@ -1,10 +1,26 @@
-<html>
-  <head>
-    <title>Hi</title>
-    <link rel="stylesheet" href="style.css"/>
-  </head>
-  <body>
-    <h1>Hello!</h1>
-    <img src="/1.jpeg"/>
-  </body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Выпадающее меню</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <ul class="menu">
+            <li class="menu-item"><a href="#">Главная</a></li>
+            <li class="menu-item dropdown">
+                <a href="#">Услуги</a>
+                <ul class="dropdown-content">
+                    <li><a href="#">Услуга 1</a></li>
+                    <li><a href="#">Услуга 2</a></li>
+                    <li><a href="#">Услуга 3</a></li>
+                </ul>
+            </li>
+            <li class="menu-item"><a href="#">Контакты</a></li>
+        </ul>
+    </nav>
+    <script src="scripts.js"></script>
+</body>
 </html>
